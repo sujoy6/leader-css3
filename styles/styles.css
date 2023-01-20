@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* common styles and utalty */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:  #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.continar{
+    background-color: #ffffff;
+    width: 870px;
+    padding-left: 30px;
+    padding-top: 33px;
+    padding-bottom: 42px;
+    padding-right: 20px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+
+/* top-player */
+.top-plyers{
+    margin-bottom: 30px;
+}
+.player-top{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color:  #562EFF;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-row-gap: 30px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.players img{
+    width: 56px;
+    height: 56px;
+    font-weight: 500;
+}
+
+/* top blogs */
